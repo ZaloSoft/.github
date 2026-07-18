@@ -1,3 +1,3 @@
-# ZaloSoft
+# ZaloSoft 🚀
 
 We write code!
