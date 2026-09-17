@@ -1,6 +1,5 @@
 # ZaloSoft™
 
-We write code!
-
+Engineering leverage.
 
 [Socials](https://link.zalosoft.com/socials)
