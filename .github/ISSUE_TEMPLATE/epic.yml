@@ -1,0 +1,45 @@
+name: Epic
+description: Track a large objective composed of multiple issues.
+type: Epic
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What outcome should this epic achieve?
+      placeholder: Describe the desired end state.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What work is included or explicitly excluded?
+      placeholder: |
+        Includes:
+        - ...
+
+        Excludes:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: High-level requirements or acceptance criteria.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Relevant architecture, dependencies, constraints, or references.
+      
