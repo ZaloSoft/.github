@@ -1,0 +1,58 @@
+name: Bug
+description: Report incorrect or unexpected behavior.
+type: Bug
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clearly describe the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant versions, runtime, browser, OS, deployment environment, etc.
+      render: text
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error output
+      description: Remove secrets or sensitive information before submitting.
+      render: text
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, suspected causes, regressions, or related issues.
+      

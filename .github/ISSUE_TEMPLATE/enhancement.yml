@@ -1,0 +1,42 @@
+name: Enhancement
+description: Improve an existing capability.
+type: Enhancement
+
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: How does the existing functionality behave?
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired behavior
+      description: How should it behave instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: What problem does this improvement solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      

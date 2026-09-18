@@ -1,0 +1,37 @@
+name: Maintenance
+description: Track upgrades, migrations, cleanup, and routine maintenance.
+type: Maintenance
+
+body:
+  - type: textarea
+    id: work
+    attributes:
+      label: Maintenance work
+      description: What needs to be upgraded, migrated, cleaned up, or maintained?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why is this maintenance necessary?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe compatibility concerns, breaking changes, downtime, or migration implications.
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Completion criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+      

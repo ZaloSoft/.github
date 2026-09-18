@@ -1,0 +1,40 @@
+name: Documentation
+description: Add, correct, or improve documentation.
+type: Documentation
+
+body:
+  - type: textarea
+    id: subject
+    attributes:
+      label: Documentation subject
+      description: What needs to be documented or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current problem
+      description: What is missing, incorrect, outdated, or unclear?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed changes
+      description: Describe the documentation that should be added or modified.
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Relevant package, page, file, API, or documentation URL.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      

@@ -1,0 +1,49 @@
+name: Research
+description: Investigate a technical question before committing to an implementation.
+type: Research
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: What question needs to be answered?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this need investigation?
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Evaluation criteria
+      description: What factors should be considered?
+      placeholder: |
+        - Performance
+        - Complexity
+        - Cost
+        - Compatibility
+        - Maintainability
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Options to investigate
+      description: Known approaches, technologies, or alternatives.
+
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Expected outcome
+      description: What decision, recommendation, prototype, benchmark, or document should this research produce?
+    validations:
+      required: true
+      
